@@ -1,0 +1,131 @@
+/*----------------------------------------------------------------------------- 
+ 
+ 	PinIt
+ 	Main style-sheet
+ 	April, 2014
+ 	 
+ ------------------------------------------------------------------------------ */
+
+/* ----------------------------- RESET --------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, main,
+dl, dt, dd, ol, ul, li,
+fieldset, figure, figcaption, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {overflow-y: scroll;}
+
+body {
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+header, footer, main, nav, aside, article, section, figure {display: block;}
+
+
+/* ----------------------------- DEFAULTS --------------------------------------- */
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('opensans-bold-webfont.eot');
+    src: url('opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-bold-webfont.woff') format('woff'),
+         url('opensans-bold-webfont.ttf') format('truetype'),
+         url('opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('opensans-italic-webfont.eot');
+    src: url('opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-italic-webfont.woff') format('woff'),
+         url('opensans-italic-webfont.ttf') format('truetype'),
+         url('opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.eot');
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular-webfont.woff') format('woff'),
+         url('opensans-regular-webfont.ttf') format('truetype'),
+         url('opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font: 100%/1.2 open_sansregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+	background: #D9E3E5;
+}
+
+h1 {float: left; width: 25%;}
+h2 {font: 2em open_sansbold, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+a, a:link {color: #444; background: transparent;}
+a:visited {opactiy: .8;}
+a:hover {text-decoration: none;}
+
+p, li, dt, dd {font-size: 0.8em;}
+
+img {max-width: 100%;}
+
+hr {display: none;}
+
+strong {font-family: open_sansbold, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 600;}
+
+/* FORMS */
+
+input {border: 2px solid #CCC; border-radius: 0.3rem;}
+
+button {
+	font-family: open_sansregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-radius: 0.3rem;
+	cursor: pointer;
+}
+
+
+/* ----------------------------- PAGE STRUCTURE --------------------------------------- */
+
+/* ---- HEADER ---- */
+
+/* -------------------------------------- SEARCH -------------------------------- */
+
+/* -------------------------------------- NAVIGATION -------------------------------- */
+
+/* --- SKIP LINK --- */
+
+/* ---- MAIN NAVIGATION ---- */
+
+/* Navigation control */
+
+/* -------------------------------------- UTILITIES -------------------------------- */
+
+/* --- ACTIONS LIST --- */
+
+	
+/* --- ADD PIN --- */
+
+	
+/* --- DRAG N DROP ZONE --- */
+
+
+/* -------------------------------------- PIN BLOCK -------------------------------- */
+
+
+/* ---------------------------- MEDIA QUERIES -------------------------------- */
+
