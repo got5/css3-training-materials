@@ -112,6 +112,32 @@ header[role=banner] {
     box-shadow: 0 1px 3px rgba(0,0,0,.7);
 }
 
+div.k-tools {}
+
+ul.k-tools-list {
+    float: right;
+    width: auto;
+    padding: 1em 2% 0;
+}
+
+ul.k-tools-list li {
+    display: inline;
+    font: 0.65em NovecentowideBook, PTSansRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #999;
+    background: transparent;
+    padding: 2em 0.2em 0.3em;
+}
+ul.k-tools-list li:before {content: "\25CF \00A0 \00A0 ";}
+
+ul.k-tools-list a, ul.k-tools-list a:link {
+    color: #FFF;
+    background: transparent;
+    text-decoration: none;
+}
+ul.k-tools-list a:hover, ul.k-tools-list a:focus {text-decoration: underline;}
+
+
 /* -------------------------------------- SEARCH -------------------------------- */
 
 /* -------------------------------------- NAVIGATION -------------------------------- */
