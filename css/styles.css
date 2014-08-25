@@ -104,6 +104,8 @@ button {
 /* ---- HEADER ---- */
 
 header[role=banner] {
+    position: relative;
+    overflow: auto;
     color: #FFF;
     background: #333;
     padding: 0.5rem 2.5%;
