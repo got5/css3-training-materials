@@ -144,6 +144,25 @@ ul.k-tools-list a:hover, ul.k-tools-list a:focus {text-decoration: underline;}
 
 /* --- SKIP LINK --- */
 
+.k-skip {
+    display: inline;
+    font-size: 1em;
+}
+.k-skip a, .k-skip a:link, .k-skip a:visited {
+    position: absolute;
+    overflow: hidden;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+}
+.k-skip a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+
 /* ---- MAIN NAVIGATION ---- */
 
 /* Navigation control */
