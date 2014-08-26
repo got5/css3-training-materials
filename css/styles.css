@@ -166,6 +166,21 @@ ul.k-tools-list a:hover, ul.k-tools-list a:focus {text-decoration: underline;}
 /* ---- MAIN NAVIGATION ---- */
 
 /* Navigation control */
+nav.k-main-nav {clear: both; background: #069; padding: 0.5rem 2.5%;}
+
+nav.k-main-nav p.control {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 45px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+nav.k-main-nav a {color: #FFF;}
 
 /* -------------------------------------- UTILITIES -------------------------------- */
 
