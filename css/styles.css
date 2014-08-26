@@ -182,6 +182,13 @@ nav.k-main-nav p.control {
 
 nav.k-main-nav a {color: #FFF;}
 
+ul.k-navbar > li {
+    display: inline-block;
+    font: 1em/1 open_sansbold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
 /* -------------------------------------- UTILITIES -------------------------------- */
 
 /* --- ACTIONS LIST --- */
