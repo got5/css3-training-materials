@@ -189,6 +189,15 @@ ul.k-navbar > li {
     text-transform: uppercase;
 }
 
+ul.k-navbar > li::after {
+    display: inline-block;
+    content: "\229A";
+    font-size: 14px;
+    color: #FFF;
+    vertical-align: 1px;
+    padding-left: 0.2em;
+}
+
 /* -------------------------------------- UTILITIES -------------------------------- */
 
 /* --- ACTIONS LIST --- */
