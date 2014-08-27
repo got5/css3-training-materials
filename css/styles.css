@@ -198,6 +198,27 @@ ul.k-navbar > li::after {
     padding-left: 0.2em;
 }
 
+ul.k-navbar a, ul.k-navbar a:link, ul.k-navbar a:visited {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    background: transparent;
+    padding: 0.5em;
+}
+
+
+ul.k-navbar li.active strong {
+    position: relative;
+    display: inline-block;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFF;
+    background: transparent;
+    padding: 0.5em;
+}
+
+
 /* -------------------------------------- UTILITIES -------------------------------- */
 
 /* --- ACTIONS LIST --- */
