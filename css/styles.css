@@ -218,6 +218,17 @@ ul.k-navbar li.active strong {
     padding: 0.5em;
 }
 
+ul.k-navbar li.active a::after, ul.k-navbar li.active strong::after, ul.k-navbar a:hover::after {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #feaf04;
+    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+}
 
 /* -------------------------------------- UTILITIES -------------------------------- */
 
