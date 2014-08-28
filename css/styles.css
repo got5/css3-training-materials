@@ -112,6 +112,7 @@ header[role=banner] {
     box-shadow: 0 1px 3px rgba(0,0,0,.7);
 }
 
+.k-tools {float: right; width: 60%; text-align: right; margin-top: 0.5em;}
 .k-tools li {
     display: inline;
     text-transform: uppercase;
