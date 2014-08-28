@@ -137,6 +137,26 @@ ul.k-tools-list a, ul.k-tools-list a:link {
 }
 ul.k-tools-list a:hover, ul.k-tools-list a:focus {text-decoration: underline;}
 
+/* On-Off indication */
+
+p.connection-status {
+    float: right;
+    overflow: hidden;
+    width: 1px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: #333;
+    background-image: url(../imgs/sprite_onoff.svg);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin: 0.5rem 0 0 1rem;
+}
+
+.online {background-position: 0 -61px;}
+.offline {background-position: 0 0;}
+
 
 /* -------------------------------------- SEARCH -------------------------------- */
 
