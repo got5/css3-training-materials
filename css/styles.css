@@ -112,6 +112,12 @@ header[role=banner] {
     box-shadow: 0 1px 3px rgba(0,0,0,.7);
 }
 
+.k-tools li {
+    display: inline;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-right: 0.5rem;
+}
 .k-tools li a, .k-tools li a:visited {
     display: inline-block;
     text-decoration: none;
