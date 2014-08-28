@@ -112,6 +112,15 @@ header[role=banner] {
     box-shadow: 0 1px 3px rgba(0,0,0,.7);
 }
 
+.k-tools li a, .k-tools li a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    background: #333;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid rgba(255,255,255, .7);
+    border-radius: 0.3rem;
+}
 
 /* On-Off indication */
 
