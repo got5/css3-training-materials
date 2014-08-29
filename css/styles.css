@@ -242,6 +242,12 @@ ul.k-navbar li.active a::after, ul.k-navbar li.active strong::after, ul.k-navbar
     -webkit-transform: rotate(-3deg);
 }
 
+.k-tools li a:hover, .k-tools li:first-of-type a:hover {
+    color: #333;
+    background: #FFF;
+    border: 1px solid #FFF;
+}
+
 /* -------------------------------------- UTILITIES -------------------------------- */
 
 /* --- ACTIONS LIST --- */
