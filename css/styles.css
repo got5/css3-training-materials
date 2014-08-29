@@ -247,6 +247,12 @@ ul.k-navbar li.active a::after, ul.k-navbar li.active strong::after, ul.k-navbar
     background: #FFF;
     border: 1px solid #FFF;
 }
+.k-tools li:first-of-type a, .k-tools li:first-of-type a:visited {
+    color: #333;
+    background: #feaf04;
+    border: 1px solid #feaf04;
+}
+
 
 /* -------------------------------------- UTILITIES -------------------------------- */
 
