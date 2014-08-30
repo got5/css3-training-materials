@@ -156,6 +156,15 @@ form.k-search {text-align: center;}
 
 #search-tag {width: 70%; max-width: 25em; font-size: 110%; padding: 0.3rem;}
 
+form.k-search input[type=submit] {
+    font: 0.9em open_sansbold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    background: #FEAF04;
+    padding: 0.3em 0.5em;
+    vertical-align: top;
+    cursor: pointer;
+}
 
 /* -------------------------------------- NAVIGATION -------------------------------- */
 
