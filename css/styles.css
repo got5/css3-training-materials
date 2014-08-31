@@ -150,6 +150,39 @@ p.connection-status {
 .offline {background-position: 0 0;}
 
 
+/* ------ COLUMNS ----- */
+
+#wrapper {padding: 2.5%;}
+
+main, aside[role=complementary] {}
+main {min-height: 500px; padding-bottom: 1rem;}
+
+main h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    top: auto;
+    left: -9000px;
+}
+
+aside[role=complementary] {
+    background: #EFEFEF;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+aside[role=complementary] h2 {
+    position: absolute;
+    left: -9000px;
+    font-size: 1px;
+}
+aside[role=complementary] p {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 /* -------------------------------------- SEARCH -------------------------------- */
 
 form.k-search {text-align: center;}
