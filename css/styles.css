@@ -305,6 +305,19 @@ ul.k-navbar li.active a::after, ul.k-navbar li.active strong::after, ul.k-navbar
 
 /* --- ACTIONS LIST --- */
 
+div.k-actions-block {
+    clear: both;
+}
+
+ul.k-actions {text-align: center; padding: 0; margin: 2rem auto;}
+
+ul.k-actions li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 0.9em;
+    text-align: center;
+}
+
 	
 /* --- ADD PIN --- */
 
