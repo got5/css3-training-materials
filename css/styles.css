@@ -324,6 +324,15 @@ ul.k-actions li {
 	
 /* --- DRAG N DROP ZONE --- */
 
+li.dnd-zone {
+    width: 121px;
+    font-family: open_sansbold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background: url(../imgs/trash.svg) top left no-repeat;
+    padding-top: 134px;
+    opacity: .5;
+}
 
 /* -------------------------------------- PIN BLOCK -------------------------------- */
 
