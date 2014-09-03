@@ -321,6 +321,14 @@ ul.k-actions li {
 	
 /* --- ADD PIN --- */
 
+ul.k-actions li:last-child a {
+    width: 121px;
+    font-family: open_sansbold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    background: #FEAF04 url(../imgs/addpin.svg) top left no-repeat;
+    padding-top: 134px;
+}
 	
 /* --- DRAG N DROP ZONE --- */
 
