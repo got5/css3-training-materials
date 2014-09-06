@@ -336,6 +336,19 @@ ul.k-actions a:hover, ul.k-actions button:hover {
     background-color: #FEAF04;
     box-shadow: none;
 }
+
+/* active */
+ul.k-actions strong {
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #000;
+    background: #FFF url(../img/k-theme0/sprites-trans.png) no-repeat 4px 30px;
+    margin: 0.5em;
+    padding: 0 10px;
+    border: 1px #000 solid;
+}
 	
 /* --- ADD PIN --- */
 
