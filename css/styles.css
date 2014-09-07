@@ -318,6 +318,9 @@ ul.k-actions li {
     text-align: center;
 }
 
+ul.k-actions li + li {margin-left: 1rem;}
+
+
 ul.k-actions a, ul.k-actions a:link, ul.k-actions a:visited, ul.k-actions button {
     overflow: hidden;
     display: inline-block;
