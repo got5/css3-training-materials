@@ -389,5 +389,17 @@ article.the-pin {
     box-shadow: 0 1px 3px rgba(0,0,0,.6);
 }
 
+article.the-pin .k-tools-list {text-align: right;}
+article.the-pin .k-tools-list li {display: inline-block; list-style-type: none;}
+article.the-pin .k-tools-list a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    background: #333;
+    padding: 5px 7px;
+    border-radius: 0.3rem;
+}
+
+
 /* ---------------------------- MEDIA QUERIES -------------------------------- */
 
