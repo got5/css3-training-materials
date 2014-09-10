@@ -400,6 +400,15 @@ article.the-pin .k-tools-list a {
     border-radius: 0.3rem;
 }
 
+article.the-pin .k-tools-list button {
+    color: #FFF;
+    background: #FEAF04;
+    padding: 5px;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
 
 /* ---------------------------- MEDIA QUERIES -------------------------------- */
 
