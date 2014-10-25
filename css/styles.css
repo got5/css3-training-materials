@@ -389,14 +389,11 @@ article.the-pin {
     box-shadow: 0 1px 3px rgba(0,0,0,.6);
 }
 
-article.the-pin footer {
-    width: 95%;
-    padding-top: 0.5rem;
-    margin: auto 2.5% 0;/* stick to the bottom */
-    border-top: 1px dotted #CCC;
-    border-bottom-left-radius: 0.3rem;
-    border-bottom-right-radius: 0.3rem;
+article.the-pin h3 {
+    font-size: 1em;
+    padding: 0.5rem 2.5% 0.3rem;
 }
+
 
 .k-picture {
     overflow: hidden;
@@ -406,6 +403,15 @@ article.the-pin footer {
 .k-picture img {
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
+}
+
+article.the-pin footer {
+    width: 95%;
+    padding-top: 0.5rem;
+    margin: auto 2.5% 0;/* stick to the bottom */
+    border-top: 1px dotted #CCC;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
 }
 
 .entry-info {float: left; width: 45%;}
