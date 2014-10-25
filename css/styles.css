@@ -389,6 +389,15 @@ article.the-pin {
     box-shadow: 0 1px 3px rgba(0,0,0,.6);
 }
 
+article.the-pin footer {
+    width: 95%;
+    padding-top: 0.5rem;
+    margin: auto 2.5% 0;/* stick to the bottom */
+    border-top: 1px dotted #CCC;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
 .entry-info {float: left; width: 45%;}
 .entry-info li {list-style-type: none; font-size: 0.65em; padding-bottom: 0.3rem;}
 
