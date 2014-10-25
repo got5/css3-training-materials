@@ -398,6 +398,16 @@ article.the-pin footer {
     border-bottom-right-radius: 0.3rem;
 }
 
+.k-picture {
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.k-picture img {
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
 .entry-info {float: left; width: 45%;}
 .entry-info li {list-style-type: none; font-size: 0.65em; padding-bottom: 0.3rem;}
 
