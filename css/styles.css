@@ -389,6 +389,11 @@ article.the-pin {
     box-shadow: 0 1px 3px rgba(0,0,0,.6);
 }
 
+article.the-pin .e-content {margin: 0 2.5% 0.5rem;}
+
+.e-content p {font-size: 0.8em; line-height: 1.4;}
+.e-content button {margin-top: 0.3rem; border: 1px solid #999;}
+
 article.the-pin h3 {
     font-size: 1em;
     padding: 0.5rem 2.5% 0.3rem;
