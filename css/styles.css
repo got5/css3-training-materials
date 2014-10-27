@@ -445,3 +445,28 @@ article.the-pin .k-tools-list button {
 
 /* ---------------------------- MEDIA QUERIES -------------------------------- */
 
+@media screen and (min-width: 640px) {
+
+    p.connection-status {
+        width: auto;
+        color: #FFF;
+    }
+
+    aside[role=complementary] p {font-size: 1.2em;}
+
+    #pins-wrapper {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: left;
+        align-items: left;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+
+    article.the-pin {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+}
