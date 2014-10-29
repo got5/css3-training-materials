@@ -470,3 +470,9 @@ article.the-pin .k-tools-list button {
         -webkit-flex-direction: column;
     }
 }
+
+@media screen and (min-width: 850px) {
+    label {display: inline-block; width: 7em;}
+    .pin-options {float: right; width: 45%; margin-top: 1rem;}
+    .image-zone {float: left; width: 50%;}
+}
